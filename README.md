@@ -7,10 +7,11 @@
 # Backend:
 
 1. Nodejs + express + mongoDB
-2. Authentication: Dùng Bcrypjs để mã hoá password
-3. Viết theo RESTfull API
-4. Giao tiếp với frontend thông qua Json-Web-Token
-5. Dùng middleware để check phân quyền giữa admin, mod, user và các phân quyền tuỳ chọn
+2. Câu trúc theo mô hình MVC
+3. Authentication: Dùng Bcrypjs để mã hoá password
+4. Viết theo RESTfull API
+5. Giao tiếp với frontend thông qua Json-Web-Token
+6. Dùng middleware để check phân quyền giữa admin, mod, user và các phân quyền tuỳ chọn
 
 # Fontend
 
