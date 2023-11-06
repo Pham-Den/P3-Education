@@ -1,13 +1,15 @@
 # P3-Education (Dự án vẫn còn phát triển...)
 
-# Mô tả: Ứng dụng dành cho giáo viên quản lý bài giảng và học sinh - gồm 1 backend và 1 frontend
+# Mô tả:
+
+Ứng dụng dành cho giáo viên quản lý bài giảng và học sinh - gồm 1 backend và 1 frontend
 
 # Backend:
 
 1. Nodejs + express + mongoDB
 2. Authentication: Dùng Bcrypjs để mã hoá password
 3. Viết theo RESTfull API
-4. Giao tiếp với frontend thông qua JWToken
+4. Giao tiếp với frontend thông qua Json-Web-Token
 5. Dùng middleware để check phân quyền giữa admin, mod, user và các phân quyền tuỳ chọn
 
 # Fontend
