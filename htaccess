@@ -1,0 +1,13 @@
+# DO NOT REMOVE. CLOUDLINUX PASSENGER CONFIGURATION BEGIN
+PassengerAppRoot "/home/englishi/e2p"
+PassengerBaseURI "/"
+PassengerNodejs "/home/englishi/nodevenv/e2p/14/bin/node"
+PassengerAppType node
+PassengerStartupFile index.js
+# DO NOT REMOVE. CLOUDLINUX PASSENGER CONFIGURATION END
+# DO NOT REMOVE OR MODIFY. CLOUDLINUX ENV VARS CONFIGURATION BEGIN
+<IfModule Litespeed>
+SetEnv MONGOOSE_URL mongodb+srv://english2impact:english2impactKhoa12345@cluster0.hygjzyh.mongodb.net/?retryWrites=true&w=majority
+SetEnv JWT_SECRET_KEY SECRET_KHOA_DEP_TRAI
+</IfModule>
+# DO NOT REMOVE OR MODIFY. CLOUDLINUX ENV VARS CONFIGURATION END
