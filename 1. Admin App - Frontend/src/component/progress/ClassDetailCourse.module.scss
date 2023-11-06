@@ -1,0 +1,284 @@
+.containers {
+  padding: 30px 20px 20px 20px;
+}
+.back {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  color: #8893a9;
+  text-decoration: underline;
+  &:hover {
+    color: #ce7d0b;
+    cursor: pointer;
+  }
+}
+
+.banner-container {
+  background-color: #f8f9fd;
+  color: #8792a9;
+
+  padding: 20px;
+
+  border-radius: 10px;
+}
+.student-container {
+  background-color: #dee2e6;
+  padding: 10px 0 0 20px;
+  border-radius: 5px;
+}
+.banner-classname {
+  font-size: 44px;
+  color: #343a40;
+}
+.banner-foot {
+  display: flex;
+  flex-direction: row;
+
+  justify-content: space-between;
+
+  padding: 10px 0;
+}
+.flexleft,
+.flexright {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.flexleft {
+  gap: 7px;
+}
+.flexright {
+  gap: 20px;
+}
+.flexc {
+  display: flex;
+  flex-direction: column;
+
+  & div {
+    font-weight: 200;
+    font-size: 14px;
+  }
+}
+
+.activehole {
+  color: #fcc419;
+}
+.student-title {
+  font-size: 22px;
+  font-weight: 400;
+  color: #333;
+}
+.student-list {
+  padding: 10px 0 20px 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+
+  // border-bottom: 1px solid #33333359;
+
+  & div {
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    background-color: #0b7285;
+    padding: 10px;
+    border-radius: 50%;
+  }
+  & div:hover {
+    cursor: pointer;
+  }
+}
+
+// content
+.content-container {
+  display: flex;
+  flex-direction: column;
+
+  gap: 10px;
+}
+.content-header {
+  display: flex;
+  flex-direction: row;
+
+  justify-content: space-between;
+  padding: 20px;
+
+  & div {
+    font-size: 18px;
+    color: #8893a9;
+  }
+}
+.content-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 10px;
+  border: 1px solid transparent;
+
+  &:hover {
+    border-radius: 10px;
+    background-color: #a3c2c9;
+  }
+}
+.content-row--left {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.content-row--left--icon {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #fff;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  //text number
+  font-size: 28px;
+  color: #8792a9;
+
+  &:hover {
+    cursor: pointer;
+    opacity: 0.9;
+    transform: scale(1.05);
+  }
+}
+
+.content-row--right {
+  padding: 5px 20px;
+
+  border: 1px solid #8893a9;
+  border-radius: 10px;
+
+  display: flex;
+  align-items: center;
+
+  gap: 10px;
+
+  &:hover {
+    cursor: pointer;
+    opacity: 0.8;
+  }
+}
+.content-row--topics {
+  display: flex;
+  flex-direction: column;
+}
+
+.content-row--topic {
+  font-size: 24px;
+}
+.content-row--module {
+  font-size: 12px;
+  font-style: italic;
+  font-weight: 200;
+}
+
+.btn-active {
+  color: #ce7d0b;
+  font-weight: 600;
+}
+
+.left-inactive {
+  background-color: #858585;
+}
+
+// module-icon-list
+.module-icon-list {
+  border-top: 1px solid #9b9b9b;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+
+  & div {
+    background-color: #0b7285;
+    padding: 5px 10px;
+    width: 150px;
+
+    border-radius: 10px;
+    text-align: center;
+  }
+  & div a {
+    text-decoration: none;
+    color: #fff;
+  }
+
+  & div:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+  }
+}
+
+//container-active
+.container-active {
+  background-color: #a3c2c8;
+  padding: 0 20px 20px 20px;
+  border-radius: 10px;
+}
+.container-nonactive {
+  padding: 0 20px;
+
+  &:hover {
+    cursor: pointer;
+    background-color: #a3c2c8;
+    border-radius: 10px;
+  }
+}
+
+.hover:hover {
+  cursor: pointer;
+}
+.row {
+  font-weight: 200;
+
+  & th {
+    font-weight: 500;
+  }
+}
+.middle {
+  text-align: center;
+}
+
+.meet-hover {
+  position: relative;
+
+  &:hover::after {
+    content: "Google Meet";
+    color: #858585;
+    position: absolute;
+    width: max-content;
+    bottom: -100%;
+    left: -100%;
+  }
+}
+.classroom-hover {
+  position: relative;
+
+  &:hover::after {
+    content: "Google Classroom";
+    color: #858585;
+    position: absolute;
+    width: max-content;
+    bottom: -100%;
+    left: -150%;
+  }
+}
+
+.quiz-hover {
+  position: relative;
+
+  &:hover::after {
+    content: "Quiz";
+    color: #858585;
+    position: absolute;
+    width: max-content;
+    bottom: -100%;
+    left: -10%;
+  }
+}

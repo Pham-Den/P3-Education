@@ -1,0 +1,27 @@
+.table {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid #333;
+  border-collapse: collapse;
+}
+
+.cell,
+.dark {
+  flex-basis: 200px;
+  border: 1px solid #333;
+
+  border-collapse: collapse;
+  text-align: center;
+
+  padding: 5px 0;
+  word-wrap: break-word;
+}
+
+.setting {
+  padding: 10px;
+}
+.dark {
+  background-color: #343a40;
+  color: #fff;
+  border: 1px solid #fff;
+}

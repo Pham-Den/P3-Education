@@ -1,0 +1,143 @@
+.containers {
+  width: 100%;
+  height: 100%;
+}
+.header-container {
+  /* // background-color: aqua; */
+  padding: 15px 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+
+  // position: fixed;
+  background-color: #fff;
+  // width: 100%;
+}
+.action-container {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  padding-right: 20px;
+
+  & input {
+    border-radius: 5px;
+    border: 1px solid #d5d5d5;
+  }
+}
+.body-container {
+  padding: 20px;
+}
+
+.rows-containers {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: space-between;
+}
+.title {
+  color: #0c8599;
+
+  font-size: 24px;
+
+  border: none;
+  line-height: 1.35;
+  font-weight: 500;
+}
+.rows-container {
+  display: flex;
+  flex-direction: row;
+
+  gap: 10px;
+
+  justify-content: space-between;
+}
+.search {
+  padding: 0 10px;
+}
+.select {
+  border-radius: 5px;
+  padding: 0 10px;
+}
+.table-container {
+  /* padding: 10px; */
+  // background-color: #e6e6e6;
+  padding: 0 20px 20px 20px;
+
+  // margin-top: 20px;
+
+  border-radius: 10px;
+}
+.table {
+  font-size: 14px;
+}
+.caption {
+  font-style: italic;
+}
+
+.icon-loading {
+  display: flex;
+  justify-content: center;
+}
+
+.icon {
+  text-align: center;
+}
+.icon:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.noactived td,
+.noactived th {
+  background-color: #979797 !important;
+}
+
+.icon-container {
+  display: flex;
+  gap: 20px;
+
+  padding-right: 30px;
+}
+.linkmeet {
+  position: relative;
+
+  &:hover::after {
+    content: "Google Meet";
+    color: #858585;
+    position: absolute;
+    width: max-content;
+    bottom: -100%;
+    left: -100%;
+  }
+}
+
+.linkcalendar {
+  position: relative;
+
+  &:hover::after {
+    content: "Google Calendar";
+    color: #858585;
+    position: absolute;
+    width: max-content;
+    bottom: -100%;
+    left: -150%;
+  }
+}
+
+// /////////////
+.card-containers {
+  padding-top: 30px;
+  display: flex;
+  flex-direction: row;
+
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+/////// //////
+.nodata {
+  padding-top: 10px;
+}

@@ -1,0 +1,147 @@
+.containers {
+  height: 100vh;
+  background-color: #f1f3f5;
+  padding: 20px 0 0 280px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.container {
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  width: 95%;
+  padding: 20px;
+
+  overflow: auto;
+}
+.items {
+  padding-bottom: 10px;
+}
+.title {
+  font-size: 22px;
+
+  font-weight: 600;
+  padding-bottom: 20px;
+}
+.subtitle {
+  display: flex;
+  flex-direction: row;
+
+  justify-content: space-between;
+  padding: 5px 10px;
+
+  border-radius: 8px;
+  border: 1px solid #333;
+
+  background-color: #ffd8a8;
+}
+.subtitle:hover {
+  cursor: pointer;
+}
+.statusdone {
+  background-color: #b2f2bb;
+  border: 3px solid #12b886;
+}
+.statusdone:hover {
+  color: #00830d;
+}
+.done {
+  min-width: 90px;
+  background-color: #1563c2;
+  font-size: 10px;
+  border: none;
+  color: #fff;
+  padding: 2px 10px;
+  font-style: italic;
+}
+
+.notyet {
+  min-width: 90px;
+  background-color: #dca314;
+  font-size: 10px;
+  border: none;
+  color: #fff;
+  padding: 2px 10px;
+  font-style: italic;
+}
+
+.content {
+  margin: 10px 0;
+  padding: 20px;
+
+  display: flex;
+  flex-wrap: wrap;
+
+  row-gap: 10px;
+  column-gap: 15px;
+
+  background-color: #fff0f6;
+}
+.content a {
+  text-decoration: none;
+  color: #333;
+}
+.content a:hover {
+  color: #d6336c;
+}
+.contentitem {
+  min-width: 100px;
+  background-color: #faa2c1;
+  padding: 10px;
+  text-align: center;
+  border-radius: 20px;
+}
+.contentitem:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+}
+
+.btn {
+  padding: 5px 10px;
+  border: none;
+  background-color: #0b7285;
+  border-radius: 20px;
+  color: #fff;
+}
+.btn:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+.choosefile {
+  padding: 2px 10px;
+  border: 2px solid #585858;
+  color: #535353;
+
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+}
+.choosefile:hover {
+  cursor: pointer;
+  transform: scale(1.03);
+}
+.hidden {
+  display: none;
+  transition: ease-in-out;
+}
+
+.rowinput {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+  padding: 10px 0 20px 0;
+}
+
+.files {
+  text-wrap: wrap;
+}
+
+@media (max-width: 625px) {
+  .subtitle {
+    flex-direction: column;
+  }
+  .rowinput {
+    flex-direction: column;
+    gap: 20px;
+  }
+}

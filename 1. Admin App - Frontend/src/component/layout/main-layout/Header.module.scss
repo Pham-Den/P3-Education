@@ -1,0 +1,139 @@
+:root {
+  --header-input-bg: #f2f3f4;
+  --color: #fff;
+}
+
+.container {
+  background-color: #2d353c;
+  width: 100%;
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 0 20px;
+  font-size: 16px;
+  font-weight: 400;
+
+  color: var(--color);
+
+  z-index: 10;
+  box-shadow: 7px 7px 7px rgba(171, 171, 171, 0.12);
+}
+
+.account-right {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  gap: 10px;
+}
+
+.logo {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+
+  width: 220px;
+  font-size: 24px;
+
+  padding: 0px 20px;
+
+  & img {
+    width: 70px;
+    height: 50px;
+
+    object-fit: cover;
+  }
+  & img:hover {
+    cursor: pointer;
+  }
+}
+.logo-title {
+  font-weight: 800;
+  min-width: max-content;
+  font-size: 24px;
+  //   color: #1a3e71;
+}
+.logo-title2 {
+  font-weight: 100;
+  min-width: max-content;
+  word-spacing: -3px;
+}
+.word {
+  display: flex;
+  gap: 3px;
+}
+
+.search {
+  margin: 0 15px;
+  width: 250px;
+  padding: 5px 15px;
+
+  display: flex;
+  flex-direction: row;
+
+  background: var(--header-input-bg);
+  border-color: var(--header-input-bg);
+  border-radius: 30px;
+}
+.search input {
+  width: 100%;
+  background: var(--header-input-bg);
+  border: transparent;
+  border-color: var(--header-input-bg);
+  border-radius: 30px;
+
+  &:focus {
+    outline: none;
+  }
+}
+.search button {
+  // position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  border: none;
+  background: 0 0;
+  border-radius: 0 30px 30px 0;
+  display: flex;
+  align-items: center;
+}
+.notification {
+  width: 30px;
+
+  display: flex;
+  justify-content: flex-end;
+
+  & button {
+    border: none;
+    background-color: transparent;
+  }
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+.account {
+  // width: 170px;
+  color: var(--color);
+
+  padding: 0 15px;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+
+  &:hover {
+    opacity: 0.75;
+  }
+}
+
+.avatar {
+  height: 30px;
+  width: 30px;
+
+  border-radius: 50%;
+  object-fit: cover;
+}

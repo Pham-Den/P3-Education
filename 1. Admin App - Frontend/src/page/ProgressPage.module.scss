@@ -1,0 +1,96 @@
+.containers {
+  padding: 20px;
+  width: 100%;
+  height: 100%;
+}
+
+.rows-containers {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: space-between;
+}
+.title {
+  color: #0c8599;
+
+  font-size: 24px;
+  margin: 15px 0 15px;
+  padding: 0;
+  border: none;
+  line-height: 1.35;
+  font-weight: 500;
+}
+.rows-container {
+  display: flex;
+  flex-direction: row;
+
+  gap: 10px;
+
+  justify-content: space-between;
+}
+.search {
+  padding: 0 10px;
+}
+.select {
+  border-radius: 5px;
+  padding: 0 10px;
+}
+.table-container {
+  /* padding: 10px; */
+}
+.table {
+  font-size: 14px;
+}
+.caption {
+  font-style: italic;
+}
+
+.icon-loading {
+  display: flex;
+  justify-content: center;
+}
+
+.icon {
+  text-align: center;
+}
+.icon:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.noactived td,
+.noactived th {
+  background-color: #979797 !important;
+}
+
+.icon-container {
+  display: flex;
+  gap: 20px;
+
+  padding-right: 30px;
+}
+.linkmeet {
+  position: relative;
+
+  &:hover::after {
+    content: "Google Meet";
+    color: #858585;
+    position: absolute;
+    width: max-content;
+    bottom: -100%;
+    left: -100%;
+  }
+}
+
+.linkcalendar {
+  position: relative;
+
+  &:hover::after {
+    content: "Google Calendar";
+    color: #858585;
+    position: absolute;
+    width: max-content;
+    bottom: -100%;
+    left: -150%;
+  }
+}

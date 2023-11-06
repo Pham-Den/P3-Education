@@ -1,0 +1,25 @@
+.containers {
+  padding: 20px;
+}
+.title {
+  padding: 10px 0;
+  font-size: 18px;
+  font-weight: 500;
+}
+.exam-container {
+  display: flex;
+  flex-direction: row;
+}
+.exams-card {
+  background-color: #0c8599;
+  color: #fff;
+  border-radius: 10px;
+  padding: 5px 10px;
+
+  text-decoration: none;
+
+  &:hover {
+    cursor: pointer;
+    opacity: 0.8;
+  }
+}

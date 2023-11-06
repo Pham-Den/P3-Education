@@ -1,0 +1,9 @@
+.viewmore {
+  font-size: 12px;
+  color: blue;
+  text-decoration: underline;
+
+  &:hover {
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,29 @@
+.row {
+}
+
+.fee {
+  max-width: 50px;
+}
+
+.fee input {
+  width: 100%;
+}
+.hover:hover {
+  cursor: pointer;
+  color: chocolate;
+}
+.icon,
+.icon-inactive {
+  text-align: center;
+}
+.icon:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+.ischange {
+  display: none;
+}
+.hoverhover {
+  cursor: pointer;
+  transform: scale(1.05);
+}

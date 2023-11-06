@@ -1,0 +1,70 @@
+.booked {
+  color: #099268;
+  background-color: #ffa8a8;
+  border: none;
+
+  padding: 5px 10px;
+  border-radius: 7px;
+}
+
+.checkin {
+  color: #099268;
+  background-color: #63e6be;
+  border: none;
+
+  padding: 5px 10px;
+  border-radius: 7px;
+}
+.checkout {
+  color: #099268;
+  background-color: #b197fc;
+  border: none;
+
+  padding: 5px 10px;
+  border-radius: 7px;
+}
+
+//////////////
+.delete {
+  background-color: transparent;
+  color: #e03131;
+  border: 1px solid #e03131;
+  padding: 2px 8px;
+  border-radius: 5px;
+
+  &:hover {
+    background-color: #e03131;
+    color: #fff;
+  }
+}
+
+.edit {
+  background-color: transparent;
+  color: #f08c00;
+  border: 1px solid #f08c00;
+  padding: 2px 8px;
+  border-radius: 5px;
+
+  &:hover {
+    background-color: #f08c00;
+    color: #fff;
+  }
+}
+
+.add {
+  background-color: transparent;
+  color: #0ca678;
+  border: 1px solid #0ca678;
+  padding: 2px 8px;
+  border-radius: 5px;
+
+  &:hover {
+    background-color: #0ca678;
+    color: #fff;
+  }
+}
+
+///////thẻ a hoặc  link //////
+.classLink {
+  text-decoration: none;
+}

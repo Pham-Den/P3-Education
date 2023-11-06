@@ -1,0 +1,92 @@
+.containers {
+  width: 100%;
+  height: 100%;
+}
+.header-container {
+  /* // background-color: aqua; */
+  padding: 15px 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+
+  // position: fixed;
+  background-color: #fff;
+  // width: 100%;
+}
+.action-container {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+
+  & input {
+    border-radius: 5px;
+    border: 1px solid #d5d5d5;
+  }
+}
+.body-container {
+  padding: 20px;
+}
+
+.rows-containers {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: space-between;
+}
+.title {
+  color: #0c8599;
+  font-size: 24px;
+
+  border: none;
+  line-height: 1.35;
+  font-weight: 500;
+}
+.rows-container {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+
+  justify-items: center;
+}
+.search {
+  padding: 0 10px;
+}
+.select {
+  border-radius: 5px;
+  padding: 0 10px;
+}
+.table-container {
+  overflow-y: auto; /* make the table scrollable if height is more than 200 px  */
+  max-height: 400px;
+
+  & thead th {
+    position: sticky; /* make the table heads sticky */
+    top: 0px; /* table head will be placed from the top of the table and sticks to it */
+  }
+
+  & table {
+    border-collapse: collapse; /* make the table borders collapse to each other */
+    width: 100%;
+  }
+  & th,
+  & td {
+    // padding: 4px 16px;
+    border: 1px solid #ccc;
+  }
+}
+.table {
+  font-size: 14px;
+}
+.caption {
+  font-style: italic;
+}
+.icon {
+  text-align: center;
+}
+.icon:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}

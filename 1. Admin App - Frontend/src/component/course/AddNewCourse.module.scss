@@ -1,0 +1,77 @@
+.containers {
+  padding: 0 20px 20px;
+  height: 100%;
+  overflow-y: auto;
+}
+.container {
+  background-color: #fff;
+  height: 100%;
+  /* overflow-y: auto; */
+  display: flex;
+  flex-direction: column;
+}
+.title {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 500;
+  color: #0c8599;
+  padding-top: 20px;
+}
+.form-containers {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  padding: 20px 20px 40px 20px;
+}
+.row {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 150px 1fr;
+}
+.col2 {
+  border-radius: 5px;
+}
+
+.container label {
+  color: #868e96;
+  font-size: 16px;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.container input,
+.container textarea {
+  border: 1px solid #868e96;
+  font-size: 16px;
+  padding: 5px;
+}
+.container input::placeholder {
+  color: #ced4da;
+}
+
+.radio-container {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+.radio {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+}
+
+.message-error {
+  color: #c92a2a;
+  padding: 10px 0;
+  font-size: 18px;
+  font-weight: 400;
+
+  text-align: center;
+}
+.error-message {
+  color: #c92a2a;
+}

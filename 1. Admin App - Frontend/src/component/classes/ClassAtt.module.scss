@@ -1,0 +1,51 @@
+.container {
+  display: flex;
+  gap: 10px;
+
+  align-items: center;
+  // padding: 10px 0 0 0;
+}
+.flex {
+  display: flex;
+  flex-direction: row;
+
+  gap: 10px;
+  align-items: center;
+}
+.btn:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+.month {
+  font-size: 18px;
+  font-weight: 500;
+  padding: 0 10px;
+}
+.classcode:hover {
+  cursor: pointer;
+  color: brown;
+}
+
+.icon,
+.icon-inactive {
+  text-align: center;
+}
+.icon:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+.ischange {
+  display: none;
+}
+
+.input-att {
+  width: 35px;
+  text-align: center;
+}
+.att-edit {
+  padding-left: 6px;
+
+  &:hover {
+    cursor: pointer;
+  }
+}

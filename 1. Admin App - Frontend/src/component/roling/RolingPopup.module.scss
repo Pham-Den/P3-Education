@@ -1,0 +1,106 @@
+.containers {
+  // background-color: rgba(0, 0, 0, 0.25);
+  z-index: 20;
+
+  position: fixed;
+
+  width: 100%;
+  height: 100%;
+}
+.background {
+  position: fixed;
+  z-index: 30;
+  background-color: rgba(0, 0, 0, 0.25);
+  width: 100%;
+  height: 100%;
+}
+
+.container {
+  position: fixed;
+  z-index: 40;
+  background-color: #fff;
+  width: 80%;
+  margin: 0 auto;
+
+  left: 50%;
+  bottom: 50%;
+
+  transform: translate(-50%, 50%);
+
+  border-radius: 10px;
+  padding: 10px 20px;
+}
+
+.title {
+  position: relative;
+  border-bottom: 1px solid rgba(161, 161, 161, 0.3);
+
+  padding: 10px 0;
+}
+.role-row {
+  padding: 20px 0;
+
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  & input {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid rgb(135, 135, 135);
+  }
+}
+
+.btn-close {
+  position: absolute;
+  right: 0;
+  top: -10px;
+
+  font-size: 30px;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.list-role {
+  display: flex;
+  padding-top: 10px;
+
+  gap: 20px;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+}
+.subtitle {
+  font-size: 20px;
+}
+.items {
+  display: flex;
+  gap: 10px;
+  padding-top: 5px;
+}
+
+.action-row {
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+}
+.btn {
+  padding: 5px 10px;
+  border: 1px solid #3a8efc;
+  border-radius: 10px;
+
+  background-color: #8dc6ff;
+
+  &:hover {
+    cursor: pointer;
+    opacity: 0.8;
+  }
+}
+.message-error {
+  color: red;
+  text-align: center;
+}

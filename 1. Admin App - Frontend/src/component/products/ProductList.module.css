@@ -1,0 +1,19 @@
+.containes {
+
+  width: 98%;
+}
+
+.image {
+  width: 50px;
+}
+.row td {
+  max-width: 150PX;
+  word-wrap: break-word;
+}
+
+.btn-containe {
+  display: flex;
+  flex-direction: row;
+
+  gap: 10px;
+}

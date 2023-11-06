@@ -1,0 +1,25 @@
+.containers {
+  padding: 20px;
+}
+.table-container {
+  width: 350px;
+}
+.table {
+  font-size: 14px;
+}
+
+.title-row {
+  display: flex;
+  justify-content: space-between;
+
+  padding: 0 0 5px 0;
+}
+.tilte {
+  color: #0c8599;
+  font-size: 22px;
+  font-weight: 500;
+}
+.gap {
+  display: flex;
+  gap: 5px;
+}
