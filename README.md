@@ -13,7 +13,7 @@
 5. Giao tiếp với frontend thông qua Json-Web-Token
 6. Dùng middleware để check phân quyền giữa admin, mod, user và các phân quyền tuỳ chọn
 
-# Fontend
+# Frontend
 
 1. Reactjs + Redux
 2. Tính năng:

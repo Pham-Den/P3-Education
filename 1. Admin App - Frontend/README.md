@@ -1,4 +1,4 @@
-# Fontend
+# Frontend
 
 1. Reactjs + Redux
 2. Tính năng:
